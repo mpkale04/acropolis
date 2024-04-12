@@ -9,6 +9,7 @@
     <h1>Welcome to Acropolis</h1>
     <button onclick="castVote()">Vote</button>
     <button onclick="buildBallot()">Build a Ballot</button>
+    <button onclick="register()">Register to Vote</button>
 
     <script>
         function castVote() {
@@ -19,6 +20,11 @@
         function buildBallot() {
             // Redirect to a different page for building a ballot
             window.location.href = "build_ballot.html";
+        }
+        
+        function register() {
+            // Redirect to a different page for registration
+            window.location.href = "register.html";
         }
     </script>
 </body>
