@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acropolis</title>
+</head>
+<body>
+    <h1>Welcome to Acropolis</h1>
+    <button onclick="castVote()">Vote</button>
+    <button onclick="buildBallot()">Build a Ballot</button>
+
+    <script>
+        function castVote() {
+            // Redirect to a different page for voting
+            window.location.href = "vote.html";
+        }
+
+        function buildBallot() {
+            // Redirect to a different page for building a ballot
+            window.location.href = "build_ballot.html";
+        }
+    </script>
+</body>
+</html>
